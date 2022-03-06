@@ -1,0 +1,47 @@
+.wrap{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    height: 100px;
+    background-color: #6B6FAE;
+    color: white;
+
+    padding-left: 55px;
+    padding-top: 25px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.jsblock{
+    height: 370px;
+    margin: 0 150px;
+}
+h2{
+    margin-top: 50px;
+    font-size: 35px;
+}
+a > img{
+    width: 400px;
+    height: 250px;
+}
+button{
+    border: none;
+    color: white;
+    background-color: #6B6FAE;
+    width: 70px;
+    height: 80px;
+    
+}
+.imgbox > img{
+    height: 120px;
+}
+.rblock{
+    margin: 0 150px;
+    height: auto;
+}
+.imgbox{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
