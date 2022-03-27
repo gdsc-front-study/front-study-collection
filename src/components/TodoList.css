@@ -1,0 +1,21 @@
+.TodoList {
+    background-color: white;
+    position: relative; 
+    padding : 30px;
+    border-radius: 30px;
+    width : 80%;
+    height : 300px;
+    margin : 0 auto;
+
+}
+.add-todo-button {
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 5rem;
+    color: #6B6FAE;
+    right: 10px;
+}

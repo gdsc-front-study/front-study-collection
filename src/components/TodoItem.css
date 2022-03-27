@@ -1,0 +1,32 @@
+.TodoItem {
+    margin-left: auto;
+    margin-right: auto;
+
+    align-items: center;
+}
+.TodoItem + .TodoItem {
+    margin-top: 15px;
+  }
+
+.content {
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+  /* check박스 모양 */
+.content svg {
+    font-size: 1.5rem;
+    color: #6B6FAE;
+}
+.content .text {
+    margin-left: 0.5rem;
+    flex: 1;
+}
+/* content에 check되어있을경우 */
+.content.checked .text {
+    color: #6c567b;
+    text-decoration: line-through;
+    cursor: pointer;
+    opacity: 0.6;
+  }

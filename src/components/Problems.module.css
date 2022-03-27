@@ -1,0 +1,34 @@
+body {
+  background-color: #FFFDF9;
+  
+}
+
+.title {
+  text-align: center;
+  font-size: 30pt;
+  margin: 24px 0;
+}
+
+
+.theme {
+  width: 400px;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-size: 18pt;
+}
+
+.theme::marker {
+  color: #6B6FAE;
+}
+
+.items {
+  list-style: none;
+  margin: 20px auto;
+  font-weight: 500;
+  font-size: 16pt;
+  background-color: aliceblue;
+  box-shadow: 1px 1px 3px 1px #cfe9ff;
+  padding: 5px;
+}
