@@ -39,26 +39,28 @@ const onCheckToggle =(id) => {
 }
   return (
 
-    <BrowserRouter>
-    <Switch>
-      {/* <Route path={"/home"} exact component={Home} /> */}
-      <Route path={`${process.env.PUBLIC_URL}/`} exact>
-      <>
-        <Main>
-          <Template>
-            <TodoList todos= {todos} setTodos = {setTodos} onCheckToggle = {onCheckToggle}/>
-            
-          </Template>
-        </Main>
-     </>
-      </Route>
-      <Route path={"/problems"} exact>
-        <Problems />
-      </Route>
-      <Route pate={"/videos"} exact>
-        <Video />
-      </Route>
-    </Switch>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Router>
+        <Switch>
+          {/* <Route path={"/home"} exact component={Home} /> */}
+          <Route path={"/"} exact>
+          <>
+            <Main>
+              <Template>
+                <TodoList todos= {todos} setTodos = {setTodos} onCheckToggle = {onCheckToggle}/>
+                
+              </Template>
+            </Main>
+        </>
+          </Route>
+          <Route path={"/problems"} exact>
+            <Problems />
+          </Route>
+          <Route pate={"/videos"} exact>
+            <Video />
+          </Route>
+        </Switch>
+      </Router>
     </BrowserRouter>
     
 
