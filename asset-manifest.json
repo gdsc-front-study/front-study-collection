@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/front-study-collection/static/css/main.fda6d433.css",
+    "main.js": "/front-study-collection/static/js/main.5d257c24.js",
+    "static/media/Cafe24SsurroundAir.ttf": "/front-study-collection/static/media/Cafe24SsurroundAir.2477297bc14b8b2ed082.ttf",
+    "static/media/Cafe24Ohsquareair.ttf": "/front-study-collection/static/media/Cafe24Ohsquareair.94cdfdfdef9b4a197116.ttf",
+    "static/media/Cafe24Ohsquare.ttf": "/front-study-collection/static/media/Cafe24Ohsquare.09c1922b1be9b4acccc5.ttf",
+    "static/media/Cafe24Ssurround.ttf": "/front-study-collection/static/media/Cafe24Ssurround.a5df3ce700ca6c98875c.ttf",
+    "static/media/goeun-image.png": "/front-study-collection/static/media/goeun-image.0f73752fe0226c05c6e7.png",
+    "static/media/minju-image.png": "/front-study-collection/static/media/minju-image.063d152bb6cda2a4b152.png",
+    "static/media/react todo.png": "/front-study-collection/static/media/react todo.ebdf3ca62effb1564b2a.png",
+    "static/media/cherry-image.jpg": "/front-study-collection/static/media/cherry-image.3a165ce24cf873b40fef.jpg",
+    "static/media/nomad.png": "/front-study-collection/static/media/nomad.63893fd97fe298b81467.png",
+    "static/media/jscode.png": "/front-study-collection/static/media/jscode.7c19b54a0b44dda0e8e8.png",
+    "static/media/in.png": "/front-study-collection/static/media/in.ed604b47652131e702dc.png",
+    "index.html": "/front-study-collection/index.html",
+    "main.fda6d433.css.map": "/front-study-collection/static/css/main.fda6d433.css.map",
+    "main.5d257c24.js.map": "/front-study-collection/static/js/main.5d257c24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fda6d433.css",
+    "static/js/main.5d257c24.js"
+  ]
+}
