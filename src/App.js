@@ -5,7 +5,8 @@ import './App.css';
 import { useState } from "react";
 import Template from "./components/Template";
 import TodoList from "./components/TodoList";
-import { BrowserRouter, Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom';
 import Problems from './components/Problems';
 import Video from "./components/Video";
 
