@@ -42,7 +42,7 @@ const onCheckToggle =(id) => {
     <BrowserRouter>
     <Switch>
       {/* <Route path={"/home"} exact component={Home} /> */}
-      <Route path={"./"} exact>
+      <Route path={`${process.env.PUBLIC_URL}/`} exact>
       <>
         <Main>
           <Template>
@@ -52,10 +52,10 @@ const onCheckToggle =(id) => {
         </Main>
      </>
       </Route>
-      <Route path={"./problems"} exact>
+      <Route path={"/problems"} exact>
         <Problems />
       </Route>
-      <Route pate={"./videos"} exact>
+      <Route pate={"/videos"} exact>
         <Video />
       </Route>
     </Switch>
