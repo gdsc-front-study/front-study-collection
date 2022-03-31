@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://gdsc-front-study.github.io/front-study-collection/static/css/main.5542e96a.css",
-    "main.js": "https://gdsc-front-study.github.io/front-study-collection/static/js/main.f778e0f7.js",
+    "main.js": "https://gdsc-front-study.github.io/front-study-collection/static/js/main.a8fb8bde.js",
     "static/media/Cafe24SsurroundAir.ttf": "https://gdsc-front-study.github.io/front-study-collection/static/media/Cafe24SsurroundAir.2477297bc14b8b2ed082.ttf",
     "static/media/Cafe24Ohsquareair.ttf": "https://gdsc-front-study.github.io/front-study-collection/static/media/Cafe24Ohsquareair.94cdfdfdef9b4a197116.ttf",
     "static/media/Cafe24Ohsquare.ttf": "https://gdsc-front-study.github.io/front-study-collection/static/media/Cafe24Ohsquare.09c1922b1be9b4acccc5.ttf",
@@ -15,10 +15,10 @@
     "static/media/in.png": "https://gdsc-front-study.github.io/front-study-collection/static/media/in.bd44ad44ace67737d5f8.png",
     "index.html": "https://gdsc-front-study.github.io/front-study-collection/index.html",
     "main.5542e96a.css.map": "https://gdsc-front-study.github.io/front-study-collection/static/css/main.5542e96a.css.map",
-    "main.f778e0f7.js.map": "https://gdsc-front-study.github.io/front-study-collection/static/js/main.f778e0f7.js.map"
+    "main.a8fb8bde.js.map": "https://gdsc-front-study.github.io/front-study-collection/static/js/main.a8fb8bde.js.map"
   },
   "entrypoints": [
     "static/css/main.5542e96a.css",
-    "static/js/main.f778e0f7.js"
+    "static/js/main.a8fb8bde.js"
   ]
 }
