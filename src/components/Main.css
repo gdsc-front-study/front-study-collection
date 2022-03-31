@@ -1,27 +1,35 @@
-.wrapper {
+  .wrapper {
 
     height : 500px;
     width : 100%;
     margin-top : 10%;
     display : flex;
   }
+
   .wrapper>.profile {
    
     width : 400px;
-    height : 500px;
+    height : 450px;
     background-color: #F3EEFF;
     right : 50%;
-    margin-right: 5%;
-    margin-left: 10%;
+    margin: 0px 7%;
     padding : 2%;
     border-radius: 30px;
   }
+
   .image1 {
-    width : 50%;
+    width : 90%;
+    height :50%;
+    padding-left: 10%;
+    margin : 0 auto;
+    display: block;
+  }
+
+  .image2 {
+    width : 90%;
     height :50%;
     margin : 0 auto;
     display: block;
-    margin-top: 40px;
   }
   
   p {
@@ -30,7 +38,7 @@
   .profile>button {
 
     background-color: pink;
-    width : 50%;
+    width : 60%;
     height : 10%;
     display: block;
     margin-left: auto;

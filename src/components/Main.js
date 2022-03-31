@@ -30,14 +30,14 @@ const main = ({children}) => {
 
             </div>
             <div className="profile">
-                <img src={image2} alt="박고은" className="image1" />
+                <img src={image2} alt="박고은" className="image2" />
                 <p>박고은</p>
                 <button onClick={handleClick3}>영화사이트</button>
                 <button onClick={handleClick4}>투두리스트</button>
             </div>
             <div className="profile">
 
-                <img src={image3} alt="김채리" className="image1" />
+                <img src={image3} alt="김채리" className="image2" />
                 <p>김채리</p>
                 <button>영화사이트</button>
                 <button>투두리스트</button>

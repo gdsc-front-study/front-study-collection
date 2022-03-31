@@ -1,11 +1,13 @@
 .TodoList {
     background-color: white;
-    position: relative; 
+    position: relative;
     padding : 30px;
     border-radius: 30px;
     width : 80%;
     height : 300px;
-    margin : 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
 
 }
 .add-todo-button {

@@ -27,8 +27,7 @@
 .imgs{
     position: relative;
     display: grid;
-    grid-template-columns: 0.
-    2fr 3fr 2fr;
+    grid-template-columns: 0.2fr 3fr 2fr;
     grid-gap: 60px;
     align-items: center;
     max-width: 100%;

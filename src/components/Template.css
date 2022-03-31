@@ -1,16 +1,19 @@
 .Template {
-    /* padding-top : 30%; */
+    padding : 0.5%;
     background-color: #D3D4E7;
-    width : 80%;
+    width : 85%;
     height : 500px;
     margin-top: 10%;
     /* position : relative; */
     margin-right: auto;
-    margin-left: auto;
-    
+    margin-left: auto;    
 }
+
 .title {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
+
+  font-size: 50px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+
 }
