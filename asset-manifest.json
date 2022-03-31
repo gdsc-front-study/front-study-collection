@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://gdsc-front-study.github.io/front-study-collection/static/css/main.59919a7b.css",
-    "main.js": "https://gdsc-front-study.github.io/front-study-collection/static/js/main.ff6045db.js",
+    "main.css": "https://gdsc-front-study.github.io/front-study-collection/static/css/main.5542e96a.css",
+    "main.js": "https://gdsc-front-study.github.io/front-study-collection/static/js/main.f778e0f7.js",
     "static/media/Cafe24SsurroundAir.ttf": "https://gdsc-front-study.github.io/front-study-collection/static/media/Cafe24SsurroundAir.2477297bc14b8b2ed082.ttf",
     "static/media/Cafe24Ohsquareair.ttf": "https://gdsc-front-study.github.io/front-study-collection/static/media/Cafe24Ohsquareair.94cdfdfdef9b4a197116.ttf",
     "static/media/Cafe24Ohsquare.ttf": "https://gdsc-front-study.github.io/front-study-collection/static/media/Cafe24Ohsquare.09c1922b1be9b4acccc5.ttf",
@@ -12,13 +12,13 @@
     "static/media/cherry-image.jpg": "https://gdsc-front-study.github.io/front-study-collection/static/media/cherry-image.3a165ce24cf873b40fef.jpg",
     "static/media/nomad.png": "https://gdsc-front-study.github.io/front-study-collection/static/media/nomad.63893fd97fe298b81467.png",
     "static/media/jscode.png": "https://gdsc-front-study.github.io/front-study-collection/static/media/jscode.7c19b54a0b44dda0e8e8.png",
-    "static/media/in.png": "https://gdsc-front-study.github.io/front-study-collection/static/media/in.ed604b47652131e702dc.png",
+    "static/media/in.png": "https://gdsc-front-study.github.io/front-study-collection/static/media/in.bd44ad44ace67737d5f8.png",
     "index.html": "https://gdsc-front-study.github.io/front-study-collection/index.html",
-    "main.59919a7b.css.map": "https://gdsc-front-study.github.io/front-study-collection/static/css/main.59919a7b.css.map",
-    "main.ff6045db.js.map": "https://gdsc-front-study.github.io/front-study-collection/static/js/main.ff6045db.js.map"
+    "main.5542e96a.css.map": "https://gdsc-front-study.github.io/front-study-collection/static/css/main.5542e96a.css.map",
+    "main.f778e0f7.js.map": "https://gdsc-front-study.github.io/front-study-collection/static/js/main.f778e0f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.59919a7b.css",
-    "static/js/main.ff6045db.js"
+    "static/css/main.5542e96a.css",
+    "static/js/main.f778e0f7.js"
   ]
 }
