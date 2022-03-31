@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://gdsc-front-study.github.io/front-study-collection/static/css/main.bf10daf3.css",
-    "main.js": "https://gdsc-front-study.github.io/front-study-collection/static/js/main.76f2e8e7.js",
+    "main.css": "https://gdsc-front-study.github.io/front-study-collection/static/css/main.6ceb1324.css",
+    "main.js": "https://gdsc-front-study.github.io/front-study-collection/static/js/main.c83950d8.js",
     "static/media/Cafe24SsurroundAir.ttf": "https://gdsc-front-study.github.io/front-study-collection/static/media/Cafe24SsurroundAir.2477297bc14b8b2ed082.ttf",
     "static/media/Cafe24Ohsquareair.ttf": "https://gdsc-front-study.github.io/front-study-collection/static/media/Cafe24Ohsquareair.94cdfdfdef9b4a197116.ttf",
     "static/media/Cafe24Ohsquare.ttf": "https://gdsc-front-study.github.io/front-study-collection/static/media/Cafe24Ohsquare.09c1922b1be9b4acccc5.ttf",
@@ -14,11 +14,11 @@
     "static/media/jscode.png": "https://gdsc-front-study.github.io/front-study-collection/static/media/jscode.7c19b54a0b44dda0e8e8.png",
     "static/media/in.png": "https://gdsc-front-study.github.io/front-study-collection/static/media/in.bd44ad44ace67737d5f8.png",
     "index.html": "https://gdsc-front-study.github.io/front-study-collection/index.html",
-    "main.bf10daf3.css.map": "https://gdsc-front-study.github.io/front-study-collection/static/css/main.bf10daf3.css.map",
-    "main.76f2e8e7.js.map": "https://gdsc-front-study.github.io/front-study-collection/static/js/main.76f2e8e7.js.map"
+    "main.6ceb1324.css.map": "https://gdsc-front-study.github.io/front-study-collection/static/css/main.6ceb1324.css.map",
+    "main.c83950d8.js.map": "https://gdsc-front-study.github.io/front-study-collection/static/js/main.c83950d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf10daf3.css",
-    "static/js/main.76f2e8e7.js"
+    "static/css/main.6ceb1324.css",
+    "static/js/main.c83950d8.js"
   ]
 }
