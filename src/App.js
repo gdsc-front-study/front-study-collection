@@ -5,7 +5,8 @@ import './App.css';
 import { useState } from "react";
 import Template from "./components/Template";
 import TodoList from "./components/TodoList";
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom';
 import Problems from './components/Problems';
 import Video from "./components/Video";
 
@@ -39,26 +40,28 @@ const onCheckToggle =(id) => {
 }
   return (
 
-    <BrowserRouter>
-    <Switch>
-      {/* <Route path={"/home"} exact component={Home} /> */}
-      <Route path={"/"} exact>
-      <>
-        <Main>
-          <Template>
-            <TodoList todos= {todos} setTodos = {setTodos} onCheckToggle = {onCheckToggle}/>
-            
-          </Template>
-        </Main>
-     </>
-      </Route>
-      <Route path={"/problems"} exact>
-        <Problems />
-      </Route>
-      <Route pate={"/videos"} exact>
-        <Video />
-      </Route>
-    </Switch>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Router>
+        <Switch>
+          {/* <Route path={"/home"} exact component={Home} /> */}
+          <Route path={"/"} exact>
+          <>
+            <Main>
+              <Template>
+                <TodoList todos= {todos} setTodos = {setTodos} onCheckToggle = {onCheckToggle}/>
+                
+              </Template>
+            </Main>
+        </>
+          </Route>
+          <Route path={"/problems"} exact>
+            <Problems />
+          </Route>
+          <Route pate={"/videos"} exact>
+            <Video />
+          </Route>
+        </Switch>
+      </Router>
     </BrowserRouter>
     
 
