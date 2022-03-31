@@ -28,6 +28,7 @@
     text-align: center;
   }
   .profile>button {
+
     background-color: pink;
     width : 50%;
     height : 10%;
@@ -39,4 +40,5 @@
     color:#6B6FAE;
     cursor:pointer; 
   }
+
 
