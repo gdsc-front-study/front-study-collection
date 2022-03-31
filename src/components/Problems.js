@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import styles from "./Problems.module.css";
 
 //변수, 연산자, 조건문과 반복문
@@ -61,8 +62,9 @@ const ch04 = [
 function Problems() {
   return (
     <>
+      <Navbar />
       <div className={styles.title}>
-       {"<"} 프로그래머스 푼 문제들 {"&"} 참고 사이트 {">"}
+       📖 프로그래머스 푼 문제들 {"&"} 참고 사이트 🔍
       </div>
       
       <ul className={styles.category}>

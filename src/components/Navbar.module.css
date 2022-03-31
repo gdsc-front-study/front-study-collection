@@ -1,0 +1,48 @@
+.navbar {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  word-break: break-all;
+  font-family: 'Cafe24Ohsquare';
+  align-items: center;
+  flex-flow: row nowrap;
+  font-size: 1.2rem;
+  background-color: #6B6FAE;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 30pt;
+  margin-left: 2vw;
+  margin-right: 15vw;
+}
+
+.navLinks {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 40px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 1023px) {
+  .logo { font-size: 26pt; }
+}
+ 
+@media (max-width: 767px) {
+  .logo { font-size: 22pt; }
+}
+ 
+@media (max-width: 639px) {
+  .logo { font-size: 15pt; }
+  .link { font-weight: 600;
+          font-size: 13pt; }
+}

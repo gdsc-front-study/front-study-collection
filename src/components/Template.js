@@ -4,10 +4,10 @@ import './Template.css'
 const Template = ({children}) => {
     return (
         <div className="Template">
-            <div className="wrapper">
+            
                 <div className="title">TodoList</div>
                 <div>{children}</div>
-            </div>
+           
         </div>
     );
 };

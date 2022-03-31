@@ -1,0 +1,27 @@
+body {
+  background-color: #FFFDF9; 
+  font-family: 'Cafe24Ohsquareair';
+}
+
+@font-face {
+  font-family: 'Cafe24SsurroundAir';
+  src: url('./fonts/Cafe24SsurroundAir.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('./fonts/Cafe24Ssurround.ttf');
+}
+
+@font-face {
+  font-family: 'Cafe24Ohsquare';
+  src: url('./fonts/Cafe24Ohsquare.ttf');
+}
+
+
+@font-face {
+  font-family: 'Cafe24Ohsquareair';
+  src: url('./fonts/Cafe24Ohsquareair.ttf');
+}

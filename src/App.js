@@ -1,12 +1,14 @@
 import React from "react";
 import Main from './components/Main';
 import './App.css';
+
 import { useState } from "react";
 import Template from "./components/Template";
 import TodoList from "./components/TodoList";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Problems from './components/Problems';
 import Video from "./components/Video";
+
 
 function App() {
    
@@ -36,6 +38,7 @@ const onCheckToggle =(id) => {
   );
 }
   return (
+
     <BrowserRouter>
     <Switch>
       {/* <Route path={"/home"} exact component={Home} /> */}
@@ -58,6 +61,7 @@ const onCheckToggle =(id) => {
     </Switch>
     </BrowserRouter>
     
+
   );
 }
 

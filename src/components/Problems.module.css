@@ -1,14 +1,13 @@
-body {
-  background-color: #FFFDF9;
-  
+.category {
+  -webkit-padding-start: 0px;
 }
 
 .title {
+  word-break: break-all;
   text-align: center;
   font-size: 30pt;
   margin: 24px 0;
 }
-
 
 .theme {
   width: 400px;
@@ -16,7 +15,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  font-size: 18pt;
+  font-size: 24pt;
 }
 
 .theme::marker {
@@ -26,9 +25,30 @@ body {
 .items {
   list-style: none;
   margin: 20px auto;
+  font-size: 20pt;
   font-weight: 500;
-  font-size: 16pt;
   background-color: aliceblue;
   box-shadow: 1px 1px 3px 1px #cfe9ff;
   padding: 5px;
+}
+
+
+@media (max-width: 1023px) {
+  .title { font-size: 26pt; }
+  .theme { font-size: 20pt; }
+  .items { font-size: 18pt;}
+}
+ 
+@media (max-width: 767px) {
+  .title { font-size: 22pt; }
+  .theme { width: 340px; }
+  .theme { font-size: 18pt; }
+  .items { font-size: 16pt;}
+}
+ 
+@media (max-width: 639px) {
+  .title { font-size: 18pt; }
+  .theme { width: 270px;
+           font-size: 16pt; }
+  .items { font-size: 14pt;}
 }

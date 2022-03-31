@@ -1,21 +1,20 @@
-/*.wrapper {
+.wrapper {
     height : 500px;
     width : 100%;
-    margin-top : 10%;
-    
-    /* position: relative; */
-    /* flex-direction: row;
-    flex-wrap: nowrap; 
+    margin-top : 15%;
+    display : flex;
 }
-.profile {
-    width : 300px;
-    height : 400px;
+
+.wrapper>.profile {
+   
+    width : 400px;
+    height : 600px;
     background-color: #F3EEFF;
     right : 50%;
     margin-right: 5%;
     margin-left: 10%;
-    display : inline-block;
-    /* flex-direction: row; 
+    /* display : inline-block; */
+    /* flex-direction: row; */
     border-radius: 30px;
 }
 img {
@@ -23,12 +22,25 @@ img {
     height :50%;
     margin : 0 auto;
     display: block;
-    margin-top: 60px;
+    margin-top: 40px;
+}
+
+p {
+    text-align: center;
 }
 .profile>button {
     background-color: pink;
-    width : 150px;
-    height : 50px;
-    margin-left: 30%;
-    margin-top : 50px;
-}*/
+    width : 50%;
+    height : 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : 10px;
+    font-size: large;
+    color:#6B6FAE;
+    cursor:pointer;
+    /* margin-left: 30%;
+    margin-top : 10px;
+    margin-bottom: 10px; */
+    
+}
