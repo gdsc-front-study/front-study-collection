@@ -1,8 +1,9 @@
+/*
 
 /*.wrap{
     width: 100%;
     height: 100%;
-}*/
+}
 .head{
     height: 100px;
     width: 100%;
@@ -17,46 +18,35 @@
 }
 .jsblock{
     height: 370px;
-    padding: 0 10%;
-    /*margin: 0 10%;*/
+    /*margin: 0 10%;
 }
 .h2_title{
+    margin-left: 10%;
     margin-top: 50px;
     font-size: 35px;
 }
 .imgs{
-    position: relative;
     display: grid;
-    grid-template-columns: 0.
-    2fr 3fr 2fr;
+    grid-template-columns: 0.2fr 3fr 2fr;
     grid-gap: 60px;
     align-items: center;
-    max-width: 100%;
-    width: auto !important;
-    height: auto !important;
+    width: 80%;
+    margin: 0 auto;
     
 }
 .imgbox{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    
     /*display: flex;
     justify-content: flex-end;
     justify-content: space-between;
-    align-items: center;*/
+    align-items: center;
 }
 .jsimg{
     height: 250px;
-    max-width: 100%;
-    width: auto !important;
-    height: auto !important;
+   
     /*flex-basis: 400px;*/
-}
-.icon{
-    max-width: 100%;
-    width: auto !important;
-    height: auto !important;
 }
 /*button{
     border: none;
@@ -65,18 +55,19 @@
     width: 70px;
     height: 80px;
     
-}*/
+}
 
 .rblock{
     height: 370px;
-    padding: 0 10%;
     /*margin: 0 150px;
-    height: auto;*/
+    height: auto;
 }
 
 @media (max-width: 1023px){
 
-    
+    .jsimg{
+        width: 220px;
+    }
     .imgs{
         grid-gap: 20px;
     }
@@ -90,6 +81,13 @@
     }
     h2{
         font-size: 30px;
+    }
+    .jsimg{
+        width: 180px;
+        height: 200px;
+    }
+    .icon{
+        width:30px;
     }
     .imgbox{
         grid-gap: 10px;
@@ -107,4 +105,12 @@
     .h2{
         font-size: 25px;
     }
+    .jsimg{
+        width: 140px;
+        height: 180px;
+    }
+    .icon{
+        width:25px;
+    }
 }
+*/

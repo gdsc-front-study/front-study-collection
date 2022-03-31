@@ -22,7 +22,7 @@ function Video() {
         <div className={styles.wrap}>
             <Navbar />
             <div className={styles.jsblock}>
-                <h2><MdCircle color="#6B6FAE" size={25}/> JavaScript</h2>
+                <h2 className={styles.h2_title}><MdCircle color="#6B6FAE" size={25}/> JavaScript</h2>
 
                 <div className={styles.imgs}>
                     {/*<button><MdArrowBackIos size={70} /> </button>*/}
@@ -42,7 +42,7 @@ function Video() {
                 {/*<button><MdArrowForwardIos size={70} /> </button>*/}
             </div>
             <div className={styles.rblock}>
-                <h2><MdCircle color="#6B6FAE" size={25} /> ReactJS</h2>
+                <h2 className={styles.h2_title}><MdCircle color="#6B6FAE" size={25} /> ReactJS</h2>
                 <div className={styles.imgs}>
                     <img src={back} className={styles.icon}/>
                     <div className={styles.imgbox}>
