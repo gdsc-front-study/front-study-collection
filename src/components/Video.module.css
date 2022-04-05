@@ -32,7 +32,7 @@
 .imgs{
     display: grid;
     grid-template-columns: 0.2fr 3fr 0.2fr;
-    grid-gap: 60px;
+    grid-gap: 50px;
     align-items: center;
     max-width: 100%;
     width: auto !important;
@@ -73,26 +73,23 @@
     .jsblock{
         height: 300px;
     }
+    .imgbox{
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 0fr;
+    }
     .imgs{
-        grid-gap: 20px;
+        grid-gap: 10px;
     }
     .rblock{
         height: 250px;
     }
 }
 @media (max-width: 767px){
-    .imgbox{
-        grid-gap: 10px;
-        grid-template-columns: 1fr 1fr 0fr;
-    }
     /*.imgintro{
         display: grid;
         grid-template-rows: auto 0.5fr;
         grid-gap: 20px;
     }*/
-    .imgs{
-        grid-gap: 10px;
-    }
 }
 @media (max-width: 639px){
     .h2_title{

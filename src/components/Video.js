@@ -8,7 +8,7 @@ import inf from "./image/in.png"
 import back from "./image/back.png"
 import forward from "./image/forward.png"
 import Navbar from "./Navbar";
-import ImgInsert from "./ImgInsert";
+import VideoInsert from "./VideoInsert";
 
 
 
@@ -44,7 +44,7 @@ function Video() {
                 <div className={styles.title}>
                     <h2 className={styles.h2_title}>JavaScript</h2>
                     <button onClick={onInsertToggle}><MdAddCircle color="#6B6FAE" size={45}/></button>
-                    {insertToggle && <ImgInsert onInsertToggle={onInsertToggle} onInsertimg = {onInsertimg}/>}
+                    {insertToggle && <VideoInsert onInsertToggle={onInsertToggle} onInsertimg = {onInsertimg}/>}
                 </div>
                 <div className={styles.imgs}>
                     {/*<button><MdArrowBackIos size={70} /> </button>*/}
