@@ -1,6 +1,6 @@
   .wrapper {
 
-    height : 500px;
+    height : 100%;
     width : 100%;
     margin-top : 10%;
     display : flex;
@@ -12,7 +12,7 @@
     height : 450px;
     background-color: #F3EEFF;
     right : 50%;
-    margin: 0px 7%;
+    margin: 0px 5%;
     padding : 2%;
     border-radius: 30px;
   }
@@ -48,5 +48,27 @@
     color:#6B6FAE;
     cursor:pointer; 
   }
-
+  @media (max-width: 1023px) {
+    .profile {font-size: 26pt;}
+  }
+  @media (max-width: 950px) {
+    .wrapper>.profile {
+      font-size: 22pt;
+      margin: 0 3%;
+    }
+  }
+  @media (max-width: 645px) {
+    .wrapper>.profile {
+      width: 300px;
+      height: 300px;
+      margin : 0 auto;
+      margin-bottom : 30px;
+      font-size: 18pt;
+    }
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+   
+    }
+  }
 
