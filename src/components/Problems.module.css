@@ -22,14 +22,35 @@
   color: #6B6FAE;
 }
 
+.element {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 20px;
+  margin: 20px auto;
+}
+
+.doneBtn {
+  font-size: 13pt;
+  font-family: 'Cafe24Ssurround';
+  text-align: left;
+  background-color: #FFFDF9;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
 .items {
   list-style: none;
-  margin: 20px auto;
   font-size: 20pt;
   font-weight: 500;
   background-color: aliceblue;
   box-shadow: 1px 1px 3px 1px #cfe9ff;
   padding: 5px;
+
+}
+
+.items:hover {
+  background-color: rgb(158, 197, 231);
+  /*box-shadow: 1px 1px 3px 1px #6B6FAE;*/
 }
 
 
@@ -43,12 +64,36 @@
   .title { font-size: 22pt; }
   .theme { width: 340px; }
   .theme { font-size: 18pt; }
-  .items { font-size: 16pt;}
+  .items { font-size: 14pt;}
+  .element {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    -webkit-padding-start: 20px;
+  
+  }
 }
  
 @media (max-width: 639px) {
   .title { font-size: 18pt; }
   .theme { width: 270px;
            font-size: 16pt; }
-  .items { font-size: 14pt;}
+  .items { font-size: 12pt;}
+  .doneBtn {
+    font-size: 10pt;
+  }
+  .element {
+    display: grid;
+    grid-template-columns: 3.5fr 1.5fr;
+    grid-gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title { font-size: 14pt; }
+  .theme { width: 270px;
+           font-size: 12pt; }
+  .items { font-size: 10pt;}
+  .doneBtn {
+    font-size: 10pt;
+  }
 }
