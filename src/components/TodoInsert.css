@@ -13,8 +13,8 @@
     right: 0%;
   }
 
-  form {
-    margin-left: 20%;
+.tdform {
+    margin-left: 10%;
     position: fixed;
     top: 40%;
     display: flex;
@@ -30,7 +30,7 @@
     background: white;
   }
   
-  form > input {
+.tdinput {
     background: none;
     outline: none;
     border: none;
@@ -40,7 +40,7 @@
     line-height: 1.5;
   }
   
-  form > button {
+.tdbutton {
     padding-top: 20px;
     background: none;
     outline: none;

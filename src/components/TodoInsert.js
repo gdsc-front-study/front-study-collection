@@ -17,9 +17,9 @@ const TodoInsert= ({onInsertToggle, onInsertTodo}) => {
     return(
     <div>
         <div className="background" onClick={onInsertToggle}></div>
-        <form onSubmit={onSubmit}>
-            <input placeholder="please type" value={value} onChange={onChange}></input>
-            <button type="submit">
+        <form onSubmit={onSubmit} className="tdform">
+            <input placeholder="please type" value={value} onChange={onChange} className="tdinput"></input>
+            <button type="submit" className="tdbutton">
                 <MdAddCircle/>
             </button>
         </form>
