@@ -16,18 +16,18 @@ function App() {
    const [todos, setTodos] = useState([
      {
        id: 1,
-       text: "할일 1",
+       text: "스터디 미니 프로젝트 마무리",
        checked: true
      },
      {
        id: 2,
-       text: "할일 2",
+       text: "시험 공부 열심히 하기",
        checked: false
      },
      {
        id: 3,
-       text: "할일 3",
-       checked: true
+       text: "맛집 탐방 프로젝트",
+       checked: false
      }
    ]);
 //체크되도록 기능 구현(만약 id가 같다면 checked의 불리언값 반대, id 다르면 todo반환)
