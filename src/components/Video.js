@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Video.module.css";
-import {MdCircle, MdArrowForwardIos, MdArrowBackIos, MdAddCircle} from "react-icons/md"
+import {MdCircle, MdArrowForwardIos, MdArrowBackIos, MdAddCircle, MdVideoLibrary} from "react-icons/md"
 import rtodo from "./image/react todo.png"
 import nomad from "./image/nomad.png"
 import jscode from "./image/jscode.png"
@@ -40,6 +40,7 @@ function Video() {
     return(
         <div className={styles.wrap}>
             <Navbar />
+            <div className={styles.videotitle}>🎬 참고한 강의 목록</div>
             <div className={styles.jsblock}>
                 <div className={styles.title}>
                     <h2 className={styles.h2_title}>JavaScript</h2>
